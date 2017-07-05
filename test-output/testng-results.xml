@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39400" started-at="2017-07-05T09:14:12Z" finished-at="2017-07-05T09:14:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39400" started-at="2017-07-05T09:14:12Z" finished-at="2017-07-05T09:14:51Z">
+      <class name="com.test.samper.SamperOne">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.samper.SamperOne@5622fdf]" name="beforeMethod" is-config="true" duration-ms="15406" started-at="2017-07-05T17:14:12Z" finished-at="2017-07-05T17:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:com.test.samper.SamperOne@5622fdf]" name="dragAndDrop" duration-ms="22085" started-at="2017-07-05T17:14:27Z" finished-at="2017-07-05T17:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.samper.SamperOne@5622fdf]" name="afterMethod" is-config="true" duration-ms="1852" started-at="2017-07-05T17:14:49Z" finished-at="2017-07-05T17:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test.samper.SamperOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

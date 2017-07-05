@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <parameter name="p1" value = "aaa" />
+   <parameter name="p2" value = "bbb" />
+    <parameter name="p3" value = "ccc" />
+  <test name="Test">
+    <classes>
+      <class name="com.test.parameters.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

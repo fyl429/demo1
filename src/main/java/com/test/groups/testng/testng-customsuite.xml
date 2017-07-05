@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+   <groups>  
+            <define name="IE">  
+                <include name="submodule1" />
+                <include name="submodule3" />                  
+            </define>  
+            <define name="FF">  
+                <include name="submodule2" />
+                <include name="submodule3" />                  
+            </define>  
+            <define name="chrome">  
+                <include name="submodule3" />
+                <include name="submodule3" />                  
+            </define>  
+            <run>  
+            	<include name="browsers" />
+                <include name="FF" />  
+            </run>  
+        </groups>  
+    <classes>
+      <class name="com.test.groups.testng.RunAsGroups"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
